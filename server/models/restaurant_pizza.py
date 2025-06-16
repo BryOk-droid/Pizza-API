@@ -1,4 +1,4 @@
-from . import db
+from server.app import db
 from sqlalchemy.orm import relationship, validates
 
 class RestaurantPizza(db.Model):
